@@ -87,6 +87,27 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+.local-nav-links a.logo .orange{
+    font-style: normal;
+    font-size: 0.7em;
+    vertical-align: middle;
+    display: inline-block;
+    animation: infinitePoping 1s linear infinite 0s;
+}
+.local-nav-links a.logo:hover .orange{
+    animation: infiniteRotate 1s linear infinite 0s;
+}
+@keyframes infinitePoping {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(5px); }
+    40% { transform: translateY(0); }
+    100% { transform: translateY(5px); }
+}
+@keyframes infiniteRotate {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(360deg); }
+}
+
 .local-nav-links a:not(.logo):hover{
     bottom: 2px;
 }
@@ -225,6 +246,17 @@ a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+}
+
+.image-blend-canvas {
+    border: 3px solid red;
+    
+
+}
+#scroll-section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 @media (min-width: 1024px){
     #scroll-section-0 h1 {
