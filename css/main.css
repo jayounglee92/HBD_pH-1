@@ -123,7 +123,8 @@ a {
 }
 
 .scroll-section {
-    padding-top: 35vh;
+    position: relative;
+    padding-top: 50vh;
 }
 
 #scroll-section-0 h1 {
