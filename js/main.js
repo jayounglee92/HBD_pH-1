@@ -135,11 +135,11 @@
 		}
 
 		let imgElem2;
-		for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
-			imgElem2 = new Image();
-			imgElem2.src = `./video/002/IMG_${7027 + i}.JPG`;
-			sceneInfo[2].objs.videoImages.push(imgElem2);
-		}
+		// for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
+		// 	imgElem2 = new Image();
+		// 	imgElem2.src = `./video/002/IMG_${7027 + i}.JPG`;
+		// 	sceneInfo[2].objs.videoImages.push(imgElem2);
+		// }
 
 		let imgElem3;
 		for (let i = 0; i < sceneInfo[3].objs.imagesPath.length; i++) {
