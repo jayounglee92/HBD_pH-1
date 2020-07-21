@@ -213,11 +213,11 @@ body.before-load {
 	background: rgb(29, 29, 31);
 }
 #scroll-section-2 .b {
-	top: 10%;
+	top: 20%;
 	left: 40%;
 }
 #scroll-section-2 .c {
-	top: 15%;
+	top: 17%;
 	left: 45%;
 }
 .mid-message {
@@ -378,26 +378,23 @@ dl dd ul li {
 }
 
 @media only screen and (max-width: 768px) {
-    .global-nav {
+    /* .global-nav {
         position: fixed;
         top: unset;
         bottom: 0;
         border-top: 1px solid #ddd;
         height: 60px;
-	}
-	.local-nav-sticky .global-nav {
+	} */
+	/* .local-nav-sticky .global-nav {
 		position: fixed;
         top: unset;
         bottom: 0;
         border-top: 1px solid #ddd;
-        height: 60px;
-	}
-    .local-nav {
-        top: 0;
-	}
+        height: 80px;
+	} */
 	.local-nav-sticky .local-nav {
 		position: fixed;
-		top: 0;
+		top: 44px;
 	}
     .local-nav-links .logo {
         font-size: 1.8em;
@@ -419,8 +416,8 @@ dl dd ul li {
 	.canvas-caption {
 		font-size: 0.9rem;
 	}
-    .footer{
+    /* .footer{
         position: relative;
-        bottom: 60px;
-    }
+        bottom: 80px;
+    } */
   }

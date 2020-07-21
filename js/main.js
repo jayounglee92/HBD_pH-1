@@ -183,7 +183,7 @@
 
 		const heightRatio = window.innerHeight / 1080;
 		sceneInfo[0].objs.canvas.style.transform = `translate3d(-50%, -50%, 0) scale(1)`;
-		sceneInfo[2].objs.canvas.style.transform = `translate3d(-35%, -15%, 0) scale(1)`;
+		sceneInfo[2].objs.canvas.style.transform = `translate3d(-53%, -50%, 0) scale(1)`;
 	}
 
 	function calcValues(values, currentYOffset) {
@@ -333,7 +333,8 @@
 
 					objs.canvas.style.transform = `scale(${canvasScaleRatio})`;
 					objs.context.fillStyle = 'white';
-					objs.context.drawImage(objs.images[0], 700, 700);
+					objs.context.drawImage(objs.images[0], 0, 0);
+					console.log(objs.images[0])
 
 					// 캔버스 사이즈에 맞춰 가정한 innerWidth와 innerHeight
 					const recalculatedInnerWidth = document.body.offsetWidth / canvasScaleRatio;
