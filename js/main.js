@@ -73,8 +73,8 @@
 				videoImages: []
 			},
 			values: {
-				videoImageCount: 960,
-				imageSequence: [0, 959],
+				videoImageCount: 900,
+				imageSequence: [0, 599],
 				canvas_opacity_in: [0, 1, { start: 0, end: 0.1 }],
 				canvas_opacity_out: [1, 0, { start: 0.95, end: 1 }],
 				messageA_translateY_in: [20, 0, { start: 0.15, end: 0.2 }],
@@ -135,11 +135,11 @@
 		}
 
 		let imgElem2;
-		// for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
-		// 	imgElem2 = new Image();
-		// 	imgElem2.src = `./video/002/IMG_${7027 + i}.JPG`;
-		// 	sceneInfo[2].objs.videoImages.push(imgElem2);
-		// }
+		for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
+			imgElem2 = new Image();
+			imgElem2.src = `./video/004/cake_video(${1 + i}).jpg`;
+			sceneInfo[2].objs.videoImages.push(imgElem2);
+		}
 
 		let imgElem3;
 		for (let i = 0; i < sceneInfo[3].objs.imagesPath.length; i++) {
@@ -183,7 +183,7 @@
 
 		const heightRatio = window.innerHeight / 1080;
 		sceneInfo[0].objs.canvas.style.transform = `translate3d(-50%, -50%, 0) scale(1)`;
-		sceneInfo[2].objs.canvas.style.transform = `translate3d(-50%, -50%, 0) scale(${heightRatio})`;
+		sceneInfo[2].objs.canvas.style.transform = `translate3d(-53%, -50%, 0) scale(1)`;
 	}
 
 	function calcValues(values, currentYOffset) {
@@ -334,6 +334,7 @@
 					objs.canvas.style.transform = `scale(${canvasScaleRatio})`;
 					objs.context.fillStyle = 'white';
 					objs.context.drawImage(objs.images[0], 0, 0);
+					console.log(objs.images[0])
 
 					// 캔버스 사이즈에 맞춰 가정한 innerWidth와 innerHeight
 					const recalculatedInnerWidth = document.body.offsetWidth / canvasScaleRatio;
