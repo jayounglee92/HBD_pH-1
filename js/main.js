@@ -281,7 +281,7 @@
 					objs.canvas.style.opacity = calcValues(values.canvas_opacity_out, currentYOffset);
 				}
 
-				if (scrollRatio <= 0.32) {
+				if (scrollRatio <= 0.22) {
 					// in
 					objs.messageA.style.opacity = calcValues(values.messageA_opacity_in, currentYOffset);
 					objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_in, currentYOffset)}%, 0)`;
@@ -291,7 +291,7 @@
 					objs.messageA.style.transform = `translate3d(0, ${calcValues(values.messageA_translateY_out, currentYOffset)}%, 0)`;
 				}
 
-				if (scrollRatio <= 0.67) {
+				if (scrollRatio <= 0.57) {
 					// in
 					objs.messageB.style.transform = `translate3d(0, ${calcValues(values.messageB_translateY_in, currentYOffset)}%, 0)`;
 					objs.messageB.style.opacity = calcValues(values.messageB_opacity_in, currentYOffset);
@@ -303,7 +303,7 @@
 					objs.pinB.style.transform = `scaleY(${calcValues(values.pinB_scaleY, currentYOffset)})`;
 				}
 
-				if (scrollRatio <= 0.93) {
+				if (scrollRatio <= 0.83) {
 					// in
 					objs.messageC.style.transform = `translate3d(0, ${calcValues(values.messageC_translateY_in, currentYOffset)}%, 0)`;
 					objs.messageC.style.opacity = calcValues(values.messageC_opacity_in, currentYOffset);
