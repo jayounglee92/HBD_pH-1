@@ -402,6 +402,10 @@ dl dd ul li {
     .local-nav-links .logo {
         font-size: 1.8em;
 	}
+	.local-nav-links a:not(.logo) {
+		margin-left: 0.5em;
+		font-size: 0.8em;
+	}
 	.none-scroll-section {
 		margin: 52px auto;
 		height: 76vh;
@@ -411,6 +415,9 @@ dl dd ul li {
 		left: 50%;
 		top: 40%;
 		transform: translate(-50%, 0);
+	}
+	.canvas-caption {
+		font-size: 0.9rem;
 	}
     .footer{
         position: relative;
