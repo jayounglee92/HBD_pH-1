@@ -247,6 +247,14 @@ body.before-load {
     background: darkorange;
     text-align: center;
 }
+.gh-logo {
+	position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.gh-logo:hover{
+	animation: infiniteRotate 1s linear infinite 0s;
+}
 .sticky-elem {
 	display: none;
 	position: fixed;
@@ -418,6 +426,14 @@ dl dd ul li {
 	}
 	h2 {
 		padding: 60px 0 10px;
+	}
+	.footer{
+		font-size: 0.9rem;
+		padding: 0 1rem;
+	}
+	.gh-logo img{
+		width: 32px;
+		height: 32px;
 	}
     /* .footer{
         position: relative;
