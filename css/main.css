@@ -20,7 +20,6 @@ a {
 
 body.before-load {
 	overflow: hidden;
-	background-color: darkorange;
 }
 .container {
 	/* iPhone 가로 스크롤 방지 */
