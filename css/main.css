@@ -431,6 +431,9 @@ dl dd ul li {
 		font-size: 0.9rem;
 		padding: 0 1rem;
 	}
+	.gh-logo{
+		bottom: 16%
+	}
 	.gh-logo img{
 		width: 32px;
 		height: 32px;
