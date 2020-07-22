@@ -146,7 +146,7 @@ body.before-load {
 .none-scroll-section{
 	max-width: 1000px;
 	margin: 96px auto;
-    height: 69vh;
+	min-height: 69vh;
 }
 #scroll-section-0 {
     color: #F7630C;
@@ -413,7 +413,6 @@ dl dd ul li {
 	}
 	.none-scroll-section {
 		margin: 52px auto;
-		height: 76vh;
 		padding: 0 1rem;
 	}
 	.image-canvas-1 {
@@ -430,9 +429,6 @@ dl dd ul li {
 	.footer{
 		font-size: 0.9rem;
 		padding: 0 1rem;
-	}
-	.gh-logo{
-		bottom: 16%
 	}
 	.gh-logo img{
 		width: 32px;
