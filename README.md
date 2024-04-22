@@ -2,10 +2,6 @@
 능력치 덕질에 써보기(●'◡'●)
 
 > This is a personal project with HTML, CSS, Javascript.  
-> The website is not stable now because of Discus Library.  
-> If anyone want to see this website, I recommand pull the repository and open index.html in local directory.  
-> Disqus 댓글 기능때문에 현재 사이트가 '사기성 사이트'로 뜨고 있습니다ㅜㅜ  
-> 사이트를 보고 싶다면, 레포지토리는 받아서 실행하시는 걸 추천합니당....
 
 ![Showing UI](/_info-img/info-HBD-pH-1.gif)
 
@@ -15,7 +11,6 @@
 - Tool : VSCode
 - Period : About 2 week 
 - Github URL : https://jayounglee92.github.io/HBD_pH-1/
-- Domain : https://happybirthdayph1.ga/
 
 ## Contents
 - [x] index.html  
